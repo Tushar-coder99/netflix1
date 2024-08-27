@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+}
+/* #################################### */
+.header{
+    background-color:black;
+}
+/* #################################### */
+.english{
+    background-color: rgb(15, 14, 14);
+    width:7rem;
+    border:0.05rem solid rgba(184, 182, 182, 0.808);
+}
+.signin{
+    background-color: brown;
+    width:5rem;
+    margin-left: 0.6rem;
+}
+.same-cont{
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.box2{
+    color: white;
+    height:2rem;
+    padding-top: 1rem;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position:relative;
+    margin-top:-31rem;
+    margin-left: 70rem;
+}
+
+.image{
+    height:45rem;
+    /* background-image:url("netflix-cover.jpg"); */
+    background: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("netflix-cover.jpg");
+    background: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("netflix-cover.jpg");
+    background-size:cover;    
+}
+.content{
+    /* font-style: oblique; */
+    padding:6rem;
+    color: white;
+    text-align: center;
+}
+
+.content b{
+    font-size: 4rem;
+    font-weight: 10px;
+}
+.space{
+    margin-top: 1rem;
+}
+
+.logo{
+    height:10rem;
+    width:5rem;
+    background-image:url("netflix-logo.png");
+    background-size:cover;
+    background-color: none;
+    /* display: flex; */
+    padding-left: 5rem;
+    position: relative;
+    top:-2rem;
+    right:-10rem;
+}
+
+.email{
+    color: white;
+    background-color: rgb(15, 14, 14);
+    border-radius: 0.3rem;
+    width:25rem;
+    display: flex;
+    align-items: center;
+    padding-left:1rem;
+    border:0.05rem solid rgba(184, 182, 182, 0.808);
+}
+.getstarted{
+    color: white;
+    background-color: brown;
+    border-radius: 0.3rem;
+    width:12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+
+}
+.box1{
+    height:4rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* ############################################## */
+
+.panel{
+    background-color: black;
+    height: 40rem;
+    position: relative;
+    top:-6rem;
+}
+/* ####################### */
+.panel1{
+    height: 10rem;
+}
+
+.pan1{
+    height: 2rem;
+    border-top:0.2rem solid red;
+    border-radius: 50%; 
+}
+.pan3{
+    height:6rem;
+    width:30rem;
+    border-radius: 25%;
+    background-color: aqua;
+    background: linear-gradient(to bottom,rgb(3, 17, 72),rgb(0, 0, 0),rgba(0,0,0,1));
+    margin-left:35rem;
+    position:relative;
+    top:-8.1rem;
+}
+
+.pan2{
+    padding-left: 9rem;
+    color: white;
+
+}
+.pan2-1{
+    display: flex;
+   
+}
+
+.pan2-1-1{
+    border:0.1rem solid rgba(184, 182, 182, 0.808);
+    margin:1rem 1rem 0 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.4rem;
+}
+
+/* ###################################################################### */
+
+.panel2{
+    height:30rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height:20rem;
+    width:18rem;
+    border-radius: 1.2rem;
+    color: aliceblue;
+    background-color: blue;
+    background:linear-gradient(to right,rgba(29, 25, 80, 0.8),rgba(4, 7, 53, 0.8),rgba(183, 82, 75, 0.8));
+    background:linear-gradient(to bottom,rgba(29, 25, 80, 0.8),rgba(33, 7, 53, 0.8),rgba(39, 14, 12, 0.8));
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.box p{
+    padding-top: 2rem;
+}
+
+.box h2{
+    padding-top: 2rem;
+}
+
+.box i{
+    padding-top: 4rem;
+    padding-left: 7.2rem;
+    scale: 3;
+}
+
+/* ####################################################################### */
+
+.panel3{
+    height:35rem;
+    color: aliceblue;
+    /* display: flex;
+    justify-content: center; */
+}
+.faq{
+    height: 3rem;
+    font-size: 2rem;
+    font-weight:600;
+    margin-left: 10rem;
+}
+.boxs{
+    height: 5rem;
+    width:60rem;
+    background-color: rgb(56, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+}
+.boxs p{
+    font-size: 1.5rem;
+}
+.boxs i{
+    font-size: 4rem;
+}
+
+.boxs:hover{
+    background-color: rgb(73, 75, 75);
+}
